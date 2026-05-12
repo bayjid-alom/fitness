@@ -1,6 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bangers&family=Bebas+Neue&family=Bitcount+Prop+Single+Ink:wght@100..900&family=Bungee&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Geist:wght@100..900&family=Hind+Siliguri:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&family=Manrope:wght@200..800&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Playwrite+US+Modern:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+*{
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+}
 
 body{
       font-family: "Inter", sans-serif;
 }
+
+:root{
+    --primary-color: #E6533C
+}
+
+
+
+/* Header related styles */
+
+.hamburger{
+    display: none;
+    color: white;
+    font-size: 20px;
+}
+
+header{
+    background-color: black;
+
+}
+
+.navbar{
+    max-width: 74%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 57px;
+}
+
+.logo h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: var(--primary-color);
+    font-style: italic;
+}
+
+.menu-items{
+    display: flex;
+    margin-left: 4; 
+    gap: 47px;
+    
+}
+
+.menu-items li{
+    list-style-type: none;
+}
+
+.menu-items a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    
+}
+
+.home{
+    background-color: var(--primary-color);
+    padding: 8px 20px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+}
+
