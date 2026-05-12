@@ -1,9 +1,15 @@
-/* @media screen and (max-width:576px){
-    .hamburger{
+@media screen and (max-width:576px) {
+    .hamburger {
         display: block;
         width: 24px;
     }
-    .menu-items{
+
+    .menu-items {
         display: none !important;
     }
-} */
+
+    .navbar {
+        max-width: 90%;
+        padding-top: 50px;
+    }
+}
