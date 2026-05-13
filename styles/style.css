@@ -49,8 +49,12 @@ header {
     display: flex;
     margin-left: 4;
     gap: 47px;
+    padding: 4px;
+
+
 
 }
+
 
 .menu-items li {
     list-style-type: none;
@@ -76,13 +80,13 @@ header {
 
 .banner-container {
     max-width: 74%;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     color: white;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 33px;
+    margin-top: 40px;
 }
 
 .banner-container .banner-content {
@@ -98,12 +102,16 @@ header {
 .banner-content p {
     margin-bottom: 28px;
     color: rgba(255, 255, 255, 0.5);
-    line-height: 24px;
+    line-height: 30px;
 }
 
 .buttons {
     display: flex;
     gap: 14px;
+}
+
+.hr{
+    display: none;
 }
 
 .buttons>button {
@@ -124,7 +132,7 @@ header {
 
     max-width: 536px;
     position: relative;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     width: 50%;
     display: flex;
     justify-content: center;
@@ -151,10 +159,6 @@ header {
     font-size: 40px;
 }
 
-.tooltip p {
-    font-size: 13px;
-
-}
 
 
 .tooltip2 {
@@ -175,6 +179,8 @@ header {
     top: 70%;
 }
 
+
+
 .tooltip2 h2 {
     font-size: 24px;
 }
@@ -185,4 +191,10 @@ header {
     width: 40px;
     background-color: #E6533C;
     border-radius: 50%;
+  
+}
+.tooltip p,
+.tooltip2 p {
+    font-size: 13px;
+    color: rgba(239, 237, 232, 0.65);
 }

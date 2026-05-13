@@ -12,4 +12,49 @@
         max-width: 90%;
         padding-top: 50px;
     }
+
+    /* .hr{
+        display: block;
+        margin-top: 8px;
+        color: rgba(128, 128, 128, 0.116) ;
+    } */
+
+
+    .banner-container {
+        flex-direction: column;
+        max-width: 93%;
+        gap: 47px;
+    }
+
+    .banner-container .banner-content {
+        max-width: 100%;
+    }
+
+    .banner-content h2 {
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 28px;
+    }
+
+    .banner-container .banner-image {
+        max-width: 100%;
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .buttons {
+        flex-wrap: wrap;
+    }
+
+    .banner-image>img {
+        width: 100%;
+    }
+
+
+
+
+
+
 }
