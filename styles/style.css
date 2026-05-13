@@ -277,3 +277,76 @@ main {
 }
 
 /* ----------------------- */
+
+/* Habits section */
+
+.habits-section {
+    max-width: 74%;
+    /* border: 1px solid white; */
+    margin: 0 auto;
+    color: white;
+    padding-top: 100px;
+}
+
+.habits-heading {
+    max-width: 671px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 58px;
+}
+
+.habits-heading>h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    color: white;
+
+}
+
+.habits-heading>p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 30px;
+}
+
+.habits-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    /* border: 1px solid white; */
+
+}
+
+.habit {
+    /* border: 1px solid white; */
+    max-width: 232px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.img-div {
+    max-width: 180px;
+    max-height: 180px;
+    /* border-radius: 50%; */
+    /* background-color: aqua; */
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.img-div>img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.habit>h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.habit>p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 20px;
+}
