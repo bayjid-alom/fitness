@@ -245,7 +245,6 @@ main {
 .exercise-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* background-color: yellowgreen; */
     margin: 0 auto;
 }
 

@@ -53,6 +53,42 @@
     }
 
 
+    /* Exercise styles */
+
+
+
+    .exercise-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .box-2 {
+        grid-column: auto;
+    }
+
+    .box-4 {
+        grid-column: auto;
+    }
+
+
+    .box-3,
+    .box-6 {
+        display: none;
+    }
+
+    .exercise-section {
+        max-width: 94%;
+        margin: 0 auto;
+        /* border: 1px solid red; */
+        padding-top: 70px;
+        margin-bottom: 88px;
+    }
+
+    .exercise-heading>h2 {
+        font-size: 32px;
+    }
+
+
 
 
 
