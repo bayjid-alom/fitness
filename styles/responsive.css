@@ -89,6 +89,24 @@
     }
 
 
+    /* Habit section */
+
+    .habits-section {
+        max-width: 94%;
+        padding-top: 70px;
+    }
+
+    .habits-heading>h2 {
+        font-size: 33px;
+    }
+
+    .habits-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 45px;
+    }
+
+
 
 
 
