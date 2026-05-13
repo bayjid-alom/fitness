@@ -155,3 +155,34 @@ header {
     font-size: 13px;
 
 }
+
+
+.tooltip2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    max-width: 193px;
+    border: 1px solid rgba(128, 128, 128, 0.233);
+    z-index: 10;
+    padding: 20px;
+    padding: 17px 24px;
+    gap: 10px;
+    border-radius: 12px;
+    background-color: rgba(48, 48, 48, 0.54);
+    top: 125px;
+    left: 00px;
+    top: 70%;
+}
+
+.tooltip2 h2 {
+    font-size: 24px;
+}
+
+
+.ball {
+    height: 40px;
+    width: 40px;
+    background-color: #E6533C;
+    border-radius: 50%;
+}
