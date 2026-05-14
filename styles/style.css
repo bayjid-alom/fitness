@@ -350,3 +350,64 @@ main {
     color: rgba(255, 255, 255, 0.5);
     line-height: 20px;
 }
+
+
+/* Run section */
+
+.run-section {
+    max-width: 74%;
+    /* border: 1px solid white; */
+    margin: 0 auto;
+    color: white;
+    margin-top: 100px;
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 18px;
+}
+
+
+.run-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 30px;
+    margin: 0 auto;
+    /* border: 1px solid white; */
+}
+
+.run-content {
+    max-width: 453px;
+}
+
+
+.run-image {
+    max-width: 366px;
+    height: auto;
+}
+
+.run-image>img {
+    width: 100%;
+    border-radius: 18px;
+}
+
+.run-content>h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    color: white;
+
+}
+
+.run-content>p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 30px;
+    margin-bottom: 17px;
+}
+
+.run-content>button {
+    background-color: var(--primary-color);
+    padding: 16px 50px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+}
