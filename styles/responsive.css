@@ -108,6 +108,40 @@
 
 
 
+    /* Run section */
+
+    .run-section {
+        max-width: 94%;
+
+    }
+
+    .run-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .run-content>button {
+        background-color: var(--primary-color);
+        padding: 16px 50px;
+        color: white;
+        border: none;
+        font-weight: 700;
+        font-size: 18px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .img1 {
+        display: none !important;
+    }
+
+    .img2 {
+        display: block;
+        width: 100%;
+    }
+
+
+
 
 
 
