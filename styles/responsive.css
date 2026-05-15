@@ -141,10 +141,33 @@
     }
 
     .run-content>h2 {
-    font-size: 32px;
-}
+        font-size: 32px;
+    }
 
+    /* Trainer Section */
 
+    .meet-section {
+        max-width: 94%;
+        margin-top: 70px;
+    }
+
+    .meet-heading>h2 {
+        font-size: 32px;
+    }
+
+    .trainer-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .trainer1,
+    .trainer4 {
+        display: none;
+
+    }
+
+    .meet-heading {
+        max-width: 89%;
+    }
 
 
 
