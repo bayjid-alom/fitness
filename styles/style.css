@@ -61,7 +61,7 @@ header {
     transition: transform 2s linear;
 }
 
-li:hover{
+li:hover {
     transform: scale(1.2);
 }
 
@@ -128,7 +128,7 @@ li:hover{
     border-radius: 50px;
     font-weight: 600;
     font-size: 17px;
-    
+
 }
 
 
@@ -138,7 +138,7 @@ li:hover{
     transition: background-color 0.5s ease-out;
 }
 
-#button2nd:hover{
+#button2nd:hover {
     background-color: var(--primary-color);
 }
 
@@ -200,7 +200,7 @@ li:hover{
     top: 70%;
 }
 
-.tooltip:hover{
+.tooltip:hover {
     border: 1px solid #E6533C;
     transform: scale(1.05);
 }
@@ -231,6 +231,7 @@ li:hover{
 
 main {
     background-color: black;
+    padding-bottom: 78px;
 }
 
 .exercise-section {
@@ -314,14 +315,16 @@ main {
     padding-top: 100px;
 }
 
-.habits-heading {
+.habits-heading,
+.meet-heading {
     max-width: 671px;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 58px;
 }
 
-.habits-heading>h2 {
+.habits-heading>h2,
+.meet-heading>h2 {
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 14px;
@@ -329,7 +332,8 @@ main {
 
 }
 
-.habits-heading>p {
+.habits-heading>p,
+.meet-heading>p {
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
     line-height: 30px;
@@ -442,4 +446,69 @@ main {
 
 .img2 {
     display: none;
+}
+
+
+/* Meet Section */
+
+.meet-section {
+    max-width: 74%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+
+.trainer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background-color: rgba(34, 34, 34, 1);
+    margin: 0 auto;
+    border-radius: 18px;
+    padding: 20px;
+}
+
+
+.trainer {
+    width: 100%;
+    height: 272px;
+    overflow: hidden;
+    border-radius: 18px;
+
+
+    background-color: #c9c3c3e5;
+}
+
+.trainer>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 18px;
+
+    mix-blend-mode: multiply;
+}
+
+.trainer-container>.trainer {
+    position: relative;
+}
+
+.inner-div>h3 {
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.inner-div>p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.trainer>.inner-div {
+    position: absolute;
+    top: 80%;
+    left: 18px;
+    z-index: 5;
+}
+
+.inner-div {
+    color: white;
 }
