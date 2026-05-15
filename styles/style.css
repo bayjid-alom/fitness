@@ -172,6 +172,8 @@ li:hover{
     background-color: rgba(255, 255, 255, 0.1);
     top: 130px;
     right: 10px;
+
+    transition: border 1s linear, transform 1s linear;
 }
 
 .tooltip h2 {
@@ -196,6 +198,11 @@ li:hover{
     top: 125px;
     left: 00px;
     top: 70%;
+}
+
+.tooltip:hover{
+    border: 1px solid #E6533C;
+    transform: scale(1.05);
 }
 
 
