@@ -26,8 +26,8 @@ body {
 
 header {
     background-color: #111111;
-
 }
+
 
 .navbar {
     max-width: 74%;
@@ -36,6 +36,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding-top: 57px;
+
+
 }
 
 .logo h2 {
@@ -50,9 +52,6 @@ header {
     margin-left: 4;
     gap: 47px;
     padding: 4px;
-
-
-
 }
 
 
@@ -69,7 +68,6 @@ li:hover {
     text-decoration: none;
     font-size: 18px;
     color: white;
-
 }
 
 .home {
@@ -85,7 +83,6 @@ li:hover {
 
 .banner-container {
     max-width: 74%;
-    /* border: 1px solid white; */
     color: white;
     margin: 0 auto;
     display: flex;
@@ -151,7 +148,6 @@ li:hover {
 
     max-width: 536px;
     position: relative;
-    /* border: 1px solid white; */
     width: 50%;
     display: flex;
     justify-content: center;
@@ -206,7 +202,6 @@ li:hover {
 }
 
 
-
 .tooltip2 h2 {
     font-size: 24px;
 }
@@ -217,7 +212,6 @@ li:hover {
     width: 40px;
     background-color: #E6533C;
     border-radius: 50%;
-
 }
 
 .tooltip p,
@@ -237,7 +231,6 @@ main {
 .exercise-section {
     max-width: 74%;
     margin: 0 auto;
-    /* border: 1px solid red; */
     padding-top: 100px;
     margin-bottom: 88px;
 }
@@ -305,11 +298,10 @@ main {
 
 /* ----------------------- */
 
-/* Habits section */
+/* Habits section related styles*/
 
 .habits-section {
     max-width: 74%;
-    /* border: 1px solid white; */
     margin: 0 auto;
     color: white;
     padding-top: 100px;
@@ -343,12 +335,9 @@ main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 40px;
-    /* border: 1px solid white; */
-
 }
 
 .habit {
-    /* border: 1px solid white; */
     max-width: 232px;
     text-align: center;
     margin: 0 auto;
@@ -358,8 +347,6 @@ main {
 .img-div {
     max-width: 180px;
     max-height: 180px;
-    /* border-radius: 50%; */
-    /* background-color: aqua; */
     margin: 0 auto;
     margin-bottom: 30px;
 }
@@ -382,11 +369,10 @@ main {
 }
 
 
-/* Run section */
+/* Run section related styles*/
 
 .run-section {
     max-width: 74%;
-    /* border: 1px solid white; */
     margin: 0 auto;
     color: white;
     margin-top: 100px;
@@ -401,7 +387,6 @@ main {
     align-items: center;
     padding: 40px 30px;
     margin: 0 auto;
-    /* border: 1px solid white; */
 }
 
 .run-content {
@@ -424,7 +409,6 @@ main {
     font-weight: 700;
     margin-bottom: 14px;
     color: white;
-
 }
 
 .run-content>p {
@@ -449,7 +433,7 @@ main {
 }
 
 
-/* Meet Section */
+/* Meet Section related styles*/
 
 .meet-section {
     max-width: 74%;
@@ -474,8 +458,6 @@ main {
     height: 272px;
     overflow: hidden;
     border-radius: 18px;
-
-
     background-color: #c9c3c3e5;
 }
 
@@ -484,7 +466,6 @@ main {
     height: 100%;
     object-fit: cover;
     border-radius: 18px;
-
     mix-blend-mode: multiply;
 }
 
@@ -511,4 +492,72 @@ main {
 
 .inner-div {
     color: white;
+}
+
+
+/* Footer styles */
+
+footer {
+    background-color: rgba(0, 0, 0, 0.918);
+    padding-top: 66px;
+    padding-bottom: 35px;
+    color: white;
+}
+
+.footer-container {
+    max-width: 74%;
+    margin: 0 auto;
+}
+
+.footer-info-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    margin-bottom: 82px;
+
+}
+
+.first,
+.second,
+.third {
+    margin: 0 auto;
+}
+
+.second>h2,
+.third>h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 35px;
+
+}
+
+.second>p,
+.third>p {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 15px;
+}
+
+.first>h2 {
+    font-size: 60px;
+    font-style: italic;
+    color: #E6533C;
+    margin-bottom: 30px;
+}
+
+.first>p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.hr-line {
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 36px;
+}
+
+.message {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.753);
+    text-align: center;
 }
