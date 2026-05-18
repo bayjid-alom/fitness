@@ -1,7 +1,7 @@
 ## Fitness
 
 ## 🌐 Live Site
-[Visit : Fitness](https://bayjid-alom.github.io/Fitness/)
+[Visit : Fitness](https://bayjid-alom.github.io/fitness/)
 
 ---
 
@@ -39,5 +39,5 @@ This project highlights responsive web design principles, organized layouts, and
 ## 📂 Clone & Run Locally
 
 ```bash
-git clone https://github.com/bayjid-alom/Fitness.git
+git clone https://github.com/bayjid-alom/fitness.git
 ```
